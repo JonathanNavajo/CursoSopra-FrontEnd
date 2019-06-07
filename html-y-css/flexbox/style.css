@@ -1,0 +1,54 @@
+/*p*/.letra-roja {
+    color: red;
+    /* color: #ff0000; */
+    /* color: rgb(255,0,0); */
+}
+
+
+#contenedor{
+    background-color: orange;
+    width: 700px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; /*left, flex-end, flex-start*/
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    
+}
+
+.item{
+    width: 300px;
+    height: 150px;
+    border: 1px solid white;
+    color: white;
+    background-color: blue;
+    order: 2;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item.preferido{
+    order: 1;
+}
+.item.castigado{
+    order: 3;
+}
+
+.item.derecha{
+    
+}
+
+
+html {
+    color: blue;
+}
+
+html {
+    color: red;
+}

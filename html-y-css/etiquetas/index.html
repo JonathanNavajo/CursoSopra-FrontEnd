@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+     <hr>
+    <!--Linea horizontal (no se cierra) -->
+    <p>Un párrafo de <br />
+        múltiples <br> <!-- Saltos de Linea (no se cierra) -->
+        lineas
+    </p>
+    <div>1</div>
+    <div>2</div>
+
+    <a href="#ultimo-parrafo">Ultimo parrafo</a> <!-- Dentro de la pagina busca el id-->
+    <a href="http://www.google.es">Google</a> <!-- Te cambia la pagina en la que estas-->
+    <a href="http://www.google.es" target="_blank">Google otra pestaña</a> <!-- Te abre una pestaña nueva-->
+    <a href="#">Otro enlace</a> <!-- La almohadilla es para que no cambie de pagina-->
+<!--
+    <p> Minions ipsum chasy jiji po kass bananaaaa pepete aaaaaah. Poopayee daa hahaha para tú me want bananaaa! Wiiiii
+        bee
+        do bee do bee do. Poopayee belloo! Underweaaar bee do bee do bee do hana dul sae underweaaar butt po kass
+        aaaaaah.
+        Potatoooo baboiii bee do bee do bee do wiiiii para tú bee do bee do bee do belloo! Belloo! Baboiii bappleees
+        aaaaaah. Hana dul sae gelatooo aaaaaah para tú para tú hana dul sae aaaaaah potatoooo hahaha. Tatata bala tu me
+        want
+        bananaaa! Poopayee underweaaar underweaaar. Aaaaaah hana dul sae po kass bappleees belloo! Bee do bee do bee do
+        me
+        want bananaaa! Wiiiii tank yuuu! Baboiii bappleees.</p>
+
+    <p> Jiji belloo! Poopayee tank yuuu! Bappleees hahaha gelatooo bee do bee do bee do gelatooo po kass. Tatata bala tu
+        la
+        bodaaa la bodaaa tank yuuu! Tank yuuu! Tulaliloo tulaliloo ti aamoo! Bananaaaa para tú. Daa baboiii daa jiji
+        tulaliloo la bodaaa me want bananaaa! Pepete bappleees tatata bala tu baboiii jeje para tú butt la bodaaa
+        belloo!
+        Para tú. Hahaha hana dul sae la bodaaa poulet tikka masala bananaaaa butt ti aamoo! Me want bananaaa! Gelatooo.
+        Daa
+        ti aamoo! Pepete baboiii.</p>
+
+    <p> Butt butt poulet tikka masala uuuhhh para tú ti aamoo! Tatata bala tu daa. Underweaaar daa aaaaaah me want
+        bananaaa!
+        Pepete daa tatata bala tu uuuhhh chasy. Jeje uuuhhh tatata bala tu potatoooo tank yuuu! Para tú wiiiii hahaha
+        gelatooo po kass belloo! Potatoooo chasy poulet tikka masala. Belloo! underweaaar wiiiii pepete.</p>
+
+
+
+    <p id="ultimo-parrafo"> Tank yuuu! bee do bee do bee do la bodaaa jeje aaaaaah uuuhhh po kass. Chasy aaaaaah me want
+        bananaaa! Bee do bee do
+        bee do baboiii gelatooo aaaaaah potatoooo tank yuuu! Gelatooo. Gelatooo para tú potatoooo daa hana dul sae
+        underweaaar poopayee hahaha po kass jiji. Gelatooo hana dul sae underweaaar pepete ti aamoo! Tulaliloo poopayee
+        pepete uuuhhh baboiii tank yuuu! Ti aamoo! potatoooo pepete tatata bala tu belloo! Tulaliloo uuuhhh pepete po
+        kass.
+        Aaaaaah para tú gelatooo ti aamoo! Bee do bee do bee do hana dul sae jeje butt underweaaar tank yuuu! Para tú.
+        Daa
+        potatoooo bappleees ti aamoo! La bodaaa bappleees me want bananaaa! Para tú. Tulaliloo jiji la bodaaa me want
+        bananaaa! Aaaaaah belloo! Tulaliloo.</p>
+    <ul>
+        <li>Harina</li>
+        <li>Leche</li>
+        <li>Arroz</li>
+        <li>Coca-cola</li>
+    </ul>
+    <ol>
+        <li>Paso 1</li>
+        <li>Paso 2</li>
+        <li>Paso 3</li>
+    </ol>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>F1 C1</td>
+                <td>F1 C2</td>
+                <!-- <td >F1 C3</td> 
+                <td rowspan="2">C3</td>
+            </tr>
+            <tr>
+                <td>F2 C1</td>
+                <td>F2 C2</td>
+                <!-- <td>F2 C3</td> 
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total: </td>
+                <td>20</td>
+            </tr>
+        </tfoot>
+    </table> -->
+
+    <!-- <img src="https://i.imgflip.com/9ehk.jpg" alt="Batman y robbin"> -->
+
+    <form action="micontrolador.rb" method="POST">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="">Nombre:</label>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Datos del pago</legend>
+            <label for="">Num. Tarjeta:</label>
+            <input type="text">
+        </fieldset>
+
+        <marquee behavior="" direction="">Bienvenidos a la pagina</marquee>
+        <input type="text">
+        <input type="number" value="20">
+        <input type="color" value="#ccddc">
+        <input type="date">
+        <input type="url">
+        
+        <fieldset>
+            <input type="checkbox" name="skills" id="js">JS
+            <input type="checkbox" name="skills" id="angular">Angular
+            <input type="checkbox" name="skills" id="ruby">Ruby
+        </fieldset>
+        <fieldset>
+            <input type="radio" name="opcion" id="si">Si
+            <input type="radio" name="opcion" id="no">No
+        </fieldset>
+        
+        
+        <button type="submit">Enviar</button>
+
+
+    </form>
+
+
+</body>
+
+</html>
