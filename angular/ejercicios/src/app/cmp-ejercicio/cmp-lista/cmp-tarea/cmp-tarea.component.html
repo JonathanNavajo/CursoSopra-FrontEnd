@@ -1,0 +1,11 @@
+<div class="tarea" [ngStyle]="{backgroundColor: (tarea.completa ? 'grey' : 'white')}">
+    <div>
+        <table >
+            <p >Tarea {{tarea.id}}:</p>
+            <p >{{tarea.nombre}}</p>
+        </table>
+    </div>
+    
+    <button type="button" (click)="hacer(tarea.id)">{{tarea.completa ? 'Deshacer' : 'Hacer'}}</button>
+    <button type="button" (click)="eliminar(tarea.id)">Eliminar</button>
+</div>

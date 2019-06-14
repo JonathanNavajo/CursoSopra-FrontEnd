@@ -1,0 +1,24 @@
+.tarea2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    background-color: lightgoldenrodyellow
+}
+
+.tarea {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px black;
+    text-justify: auto;
+    background-color: white;
+}
+
+.tarea > p {
+    text-align: justify;
+}

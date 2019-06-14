@@ -1,0 +1,20 @@
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    background-color: lightgoldenrodyellow
+}
+
+h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .cardList{
+        /* background-color: blue; */
+        width: 550px;
+    }
+}

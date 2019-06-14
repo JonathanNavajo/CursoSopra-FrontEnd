@@ -1,0 +1,4 @@
+<h1>CURRICULUM</h1>
+<p>NOMBRE: {{ nombrePadre }}</p>
+<app-cmp-form (avisarCambio1)="cambiarNombre($event)" (avisarCambio2)="cambiarApellidos($event)" (avisarCambio3)="cambiarCorreo($event)" [nombre] = "nombrePadre" [apellidos] = "apellidosPadre" [correo] = "correoPadre"></app-cmp-form>
+<app-cmp-cv [nombreRecogido]="nombrePadre" [apellidoRecogido]="apellidosPadre" [correoRecogido]="correoPadre"></app-cmp-cv>

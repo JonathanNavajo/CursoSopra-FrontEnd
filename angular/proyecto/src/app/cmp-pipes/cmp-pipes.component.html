@@ -1,0 +1,38 @@
+<h1>Pipes</h1>
+<p>{{ texto }}</p>
+<!-- <p>{{ texto.toUpperCase }}</p> -->
+<p>{{ texto | uppercase }}</p>
+<p>{{ texto | lowercase }}</p>
+<p>{{ texto | slice:5 }}</p>
+<p>{{ texto | slice:5:8 }}</p>
+<p>{{ texto | doble }}</p>
+<p>{{ 'Que viene el coco...' | doble }}</p>
+<p>{{ 'Que viene el coco...' | doble:'e' }}</p>
+
+
+<p>{{ precio }}</p>
+<p>{{ precio | currency }}</p>
+<p>{{ precio | currency:'EUR' }}</p>
+<p>{{ precio | doble }}</p>
+
+
+<p>{{ fecha }}</p>
+<p>{{ fecha | date }}</p>
+<p>{{ fecha | date:'dd/MM/yyyy' }}</p>
+
+
+
+<p>{{ 'Hola mundo' | reverse }}</p>
+<p>{{ parrafo | ocultar:['en', 'primera']:'/+/' }}</p>
+
+<ul>
+  <li *ngFor="let mascota of mascotas | filtro:'p'">{{mascota}}</li>
+</ul>
+<input type="text" (change)="mascotas.push($event.target.value)">
+<ul>
+  <li *ngFor="let mascota of mascotas">{{mascota}}</li>
+</ul>
+
+
+<h2>Pipes async</h2>
+<p>Mensaje: {{ msg | async }}</p>
